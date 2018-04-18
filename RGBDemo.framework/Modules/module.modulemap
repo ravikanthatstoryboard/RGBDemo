@@ -1,0 +1,11 @@
+framework module RGBDemo {
+  umbrella header "RGBDemo.h"
+
+  export *
+  module * { export * }
+}
+
+module RGBDemo.Swift {
+    header "RGBDemo-Swift.h"
+    requires objc
+}
